@@ -31,16 +31,20 @@ class Detail extends Component {
         <Row>
           <Col size="md-10 md-offset-1">
             <article>
-              <h1>Synopsis</h1>
+              <h1>Description</h1>
               <p>
-                {this.state.book.synopsis}
+                {this.state.book.description}
               </p>
+              {/* <h1>Preview</h1>
+              <p>
+                {this.state.book.previewLink}
+              </p> */}
             </article>
           </Col>
         </Row>
         <Row>
           <Col size="md-2">
-            <Link to="/">← Back to Authors</Link>
+            <Link to="/">← Back to Search</Link>
           </Col>
         </Row>
       </Container>
